@@ -73,7 +73,7 @@ CORS_ALLOW_HEADERS = [
     'authorization',
 ]
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'crispy-train-gvg95qq4gg9cv76-8000.app.github.dev']
 
 INSTALLED_APPS += [
     'corsheaders',
